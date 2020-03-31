@@ -131,7 +131,7 @@ def players_data_array
     while i < hash[:players].length do
       new_array << hash[:players][i]
       i+= 1
-      #binding.pry
+      binding.pry
     end
   end
   new_array
